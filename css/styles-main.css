@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(162, 176, 196, 0.801);
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.logo img{
+    width: 40%;
+   /* background-color: blueviolet;*/
+}
+
+
+header .menu-items {
+   /* background-color: blue;*/
+    width: 100%;
+    text-align: right;
+    margin-right: 3%;
+}
+
+menu a {
+    background-color: rgb(169, 179, 179);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    margin: 1%;
+    border-radius: 10%;
+}
+
+.productos {
+    display:block;
+    
+}
+
+.productos .product-1 {
+    text-align: center;
+}
+
+.productos .product-1 img{
+    width: 30%;
+}
