@@ -85,8 +85,7 @@ body {
 }
 
 .card img {
-    width: 300px;
-    height: 30vh;
+    
 }
 
 .card:hover {
@@ -111,4 +110,49 @@ body {
 
 .card-container {
     padding: 2px 16px;
+}
+
+
+main {
+    box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+    margin-left: 35%;
+    margin-right: 35%;
+    align-items: center;
+}
+
+form {
+    margin-top: 20px;
+    align-items: center;
+    background-color: white;
+
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+button {
+    padding: 10px;
+    background-color: #de1822;
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+form label input {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border-color: #afa7a7;
+}
+
+form label p {
+    color: #de1822;
 }

@@ -1,46 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles-main.css">
+    <link rel="stylesheet" href="../css/styles-product.css">
     <title>The Store</title>
 </head>
+
 <body>
-   <header>
-        <div class="logo">
-            <a href="../index.html">
-                <img src="../resources/239-2398314_logo-store-png-e-store.png" alt="">
+    <header>
+        <div class="nav-main">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../resources/239-2398314_logo-store-png-e-store.png" alt="">
+                </a>
+            </div>
 
-            </a>
+            <div class="menu-items">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Productos</a></li>
+                        <li><a href="#">Carrito</a></li>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="../pages/new_product.html">Nuevo Producto</a></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
 
-        <div class="menu-items">
-            <menu>
-                <a href="../index.html">Productos</a>
-                <a href="#">Carrito</a>
-                <a href="#">Login</a>
-                <a href="../pages/new_product.html">Nuevo Producto</a>
-            </menu>
-        </div>
     </header>
 
     <main>
         <form action="">
-            <p>New Product</p>
+            
+            <label>
+                <p>New Product</p>
 
-            <label for="name">
-                Nombre:     <input type="text" id="nombre">
-                Precio:     <input type="number" id="precio">
-                Inventario: <input type="number" id="inventario">
+                Nombre: <input type="text" id="name">
+                Precio: <input type="number" id="price">
+                Inventario: <input type="number" id="inventory">
+                
+                <button id="btnCreate">Crear Producto</button>
             </label>
-            <button>Crear Producto</button>
+
+            
+            <span id="errorPrice">Campo Requerido</span>
+            
         </form>
     </main>
 
     <footer>
 
     </footer>
+
+    
 </body>
+<script src="/js/newProduct.js"></script>
 </html>
